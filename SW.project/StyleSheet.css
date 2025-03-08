@@ -1,0 +1,104 @@
+/* إعدادات عامة للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+
+
+    display: flex;
+flex-direction: column;
+min-height: 100vh;
+padding-top: 250px;
+    
+}
+
+/* الحاوية الرئيسية */
+#fadd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+/* العنوان */
+h2 {
+    color: #4d7c0f;
+    margin-bottom: 20px;
+}
+
+/* صورة المادة */
+.image-frame img { 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    width: 20%; 
+    object-fit: cover;
+}
+.upload-section {
+    border: 0.0625em solid #761d1a; 
+    padding: 0.75em; 
+    text-align: center;
+}
+
+/* الجدول */
+#protable {
+    width: 100%;
+    background-color: #ffffff; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* خلايا الجدول */
+#protable td {
+    padding: 8px;
+    text-align: left;
+}
+
+#protable label {
+    font-weight: bold;
+    color: #4d7c0f;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* الحقول */
+#protable input[type="text"],
+#protable input[type="tel"],
+#protable select,
+#protable textarea {
+    width: calc(100% - 10px);  
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* زر الإضافة */
+#sub {
+    background-color: #4d7c0f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#sub:hover {
+    background-color: #3a5c0b;
+}
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}

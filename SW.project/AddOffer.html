@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="StyleSheet.css">
+    <title>ECO</title>
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/logo2.jpg" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="home.html">home</a></li>
+            <li><a href="#motivation">Motivation</a></li>
+            <li><a href="#point">point </a></li>
+            <li><a href="AddOffer.html">offer Recycled</a></li>
+            <li><a href="find.html" >Find Recycled</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+<div id="fadd" style="display: flex; flex-direction: column; align-items: center; margin: 20px;">
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>
+                    <div class="image-frame">
+                        <img src="img/add.png" alt="add image" id="addImage">
+                    </div>
+                    <div class="upload-section">
+                        <label>Add material's photo:<input type="file" name="photo"></label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+       
+        <h2 style="text-align: center;">material information:</h2>
+        <table id="protable">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">phone number (This number will be visible to other users):</label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="05XXXXXXXX"></td>
+            </tr>
+            <tr>
+                <td><label for="quantity">Quantity:</label></td>
+                <td><input type="text" id="quantity" name="quantity"></td>
+            </tr>
+            <tr>
+                <td><label for="category">type:</label></td>
+                <td>
+                    <select id="category" name="category">
+                        <option value="category1">Plastic</option>
+                        <option value="category2">Glass</option>
+                        <option value="category3">Metal</option>
+                        <option value="category4">Clothes</option>
+                        <option value="category5">other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="description">Description:</label></td>
+                <td><textarea id="description" name="description" placeholder="Description"></textarea></td>
+            </tr>
+        </table>
+      
+        <div style="text-align: center;">
+            <input id="sub" type="submit" value="Add" style="margin-bottom: 30px;">
+        </div>
+    </form>
+</div>
+
+<footer>
+<section class="contact" id="contact">
+    <div class="social">
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        
+    </div>
+    <p>&#169; CarpoolVenom All Right Reserverd.</p>
+</section>
+</footer>
+
+<script src="main.js"></script> 
+</body>
+</html>
