@@ -1,0 +1,1 @@
+ECO Project is a website that promotes recycling, aiming to connect individuals with factories where they can exchange recyclable materials for rewards and points. The idea is to encourage society to adopt a recycling culture by providing a reward system that motivates individuals to contribute to environmental protection. ♻️🌿✨
